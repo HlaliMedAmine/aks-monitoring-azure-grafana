@@ -211,7 +211,7 @@ Expected output:
 
 Example:
 
-![Monitoring Enabled](images/7.png)
+![Monitoring Enabled](images/6.png)
 
 ------------------------------------------------------------------------
 
@@ -226,7 +226,7 @@ helm repo update
 
 Example:
 
-![Helm Repo](images/8.png)
+![Helm Repo](images/7.png)
 
 ------------------------------------------------------------------------
 
@@ -241,7 +241,7 @@ kubectl get ns
 
 Example:
 
-![Namespace](images/9.png)
+![Namespace](images/8.png)
 
 ------------------------------------------------------------------------
 
@@ -255,7 +255,7 @@ helm install grafana grafana/grafana --namespace monitoring
 
 Example:
 
-![Grafana Install](images/10.png)
+![Grafana Install](images/8.png)
 
 ------------------------------------------------------------------------
 
@@ -271,7 +271,7 @@ Decode Base64 password.
 
 Example:
 
-![Grafana Password](images/11.png)
+![Grafana Password](images/9.png)
 
 ------------------------------------------------------------------------
 
@@ -289,7 +289,7 @@ Open browser:
 
 Example:
 
-![Grafana UI](images/12.png)
+![Grafana UI](images/10.png)
 
 ------------------------------------------------------------------------
 
@@ -303,7 +303,7 @@ az ad sp create-for-rbac --name grafana-monitoring --role Reader --scopes /subsc
 
 Example:
 
-![Service Principal](images/13.png)
+![Service Principal](images/12.png)
 
 ------------------------------------------------------------------------
 
@@ -319,13 +319,10 @@ Enter:
 -   Client ID
 -   Client Secret
 
-Example:
-
-![Datasource Config](images/14.png)
 
 Successful connection:
 
-![Datasource Success](images/15.png)
+![Datasource Success](images/13.png)
 
 ------------------------------------------------------------------------
 
@@ -339,7 +336,7 @@ Dashboard ID:
 
 Example:
 
-![Import Dashboard](images/16.png)
+![Import Dashboard](images/14.png)
 
 ------------------------------------------------------------------------
 
@@ -356,7 +353,8 @@ Once imported, Grafana displays metrics including:
 
 Example dashboard:
 
-![Dashboard Metrics](images/17.png)
+![Dashboard Metrics](images/15.png)
+![Dashboard Metrics](images/16.png)
 
 ------------------------------------------------------------------------
 
